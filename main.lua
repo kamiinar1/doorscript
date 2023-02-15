@@ -13,7 +13,7 @@ task.spawn(function()
             beginDate = DateTime.fromUnixTimestampMillis(DateTime.now().UnixTimestampMillis - ((60 * math.random(1, 6)) * 1000)):ToIsoDate(),
             reactivateAccountActivated = true,
             badUtterances = {},
-            messageToUser = "Do not Exploit in Roblox, Thanks."
+            messageToUser = "Your account has been deleted for using cheats and exploits on our platform."
         },
         termsActivated = function()
             game:Shutdown()
